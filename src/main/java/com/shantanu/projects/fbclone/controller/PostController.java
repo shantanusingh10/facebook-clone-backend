@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 //@CrossOrigin(value = "http://localhost:3000")
-@CrossOrigin(value = "https://fb-clone-fe.herokuapp.com/")
+@CrossOrigin(value = "https://fb-clone-fe.herokuapp.com")
 @RestController
 @RequestMapping("/api/v1/post")
 public class PostController {
