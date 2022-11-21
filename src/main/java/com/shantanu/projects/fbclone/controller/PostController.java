@@ -44,6 +44,7 @@ public class PostController {
 
     @GetMapping
     public List<Post> getPost() {
+        System.out.println("hello its working");
         return postService.getPost();
     }
 }
